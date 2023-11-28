@@ -1,4 +1,59 @@
-# Censys Python Library
+Phishing Domain Detection Project
+Overview
+
+The Phishing Domain Detection Project is a comprehensive cybersecurity initiative to identify and analyze potential phishing domains. This project utilizes automated data collection, heuristic algorithms, and intuitive data visualization to enhance cybersecurity measures against phishing threats.
+Key Features
+
+    Automated Data Collection: Python scripts to collect data from Certificate Transparency logs automatically.
+    Heuristic Algorithms: Bespoke algorithms to identify phishing domains based on unique domain characteristics.
+    Kibana Dashboards: Real-time visualization and interactive analysis of potential phishing activities.
+    Research-Driven Approach: In-depth exploration of phishing domains and advanced cyber threat intelligence integration.
+
+Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Prerequisites
+
+    Python 3.x
+    Elasticsearch
+    Kibana
+    CertStream (for real-time SSL/TLS certificate transparency log updates)
+
+Installation
+
+    Clone the repository:
+
+    bash
+
+git clone [repository URL]
+
+Install the required Python packages:
+
+    pip install -r requirements.txt
+
+    Set up Elasticsearch and Kibana according to their respective documentation.
+
+Running the Scripts
+
+    To start data collection, run:
+
+    python data_collection_script.py
+
+    To visualize the data in Kibana, ensure Elasticsearch and Kibana are running and follow the instructions in the kibana_dashboard_setup.md file.
+
+Contributing
+
+Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests to us.
+Authors
+
+    Andrew Deno - Initial work
+
+License
+
+This project is licensed under the LICENSE.md file for details.
+Acknowledgments
+
+    Mention any inspirations, code snippets, etc.# Censys Python Library
 
 [![PyPI](https://img.shields.io/pypi/v/censys?color=orange&logo=pypi&logoColor=orange)](https://pypi.org/project/censys/)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue?logo=python)](https://www.python.org/downloads/)
